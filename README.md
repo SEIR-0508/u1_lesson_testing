@@ -237,8 +237,10 @@ If we write good tests, we can identify regression when it happens. For example,
 Testing is a broad and deep topic. Many engineers can make a career out of becoming experts in software testing. We have only scratched the surface of testing in this lesson, but the fundamental motivations for testing will not change as you learn more about testing in the future.
 
 
-
-### Testing with Jest
+ ____________________________________________________
+ 
+ 
+# Testing with Jest
 
 A walk through for JS unit tests using Jest as our test runner, assertion library & coverage reporter
 
@@ -331,7 +333,7 @@ To get a check on what percentage of your code has test coverage, jest comes wit
 ```
 - Now you can see your test coverage with `npm run coverage`
 
-# Jest and node.js ESM vs cjs modules
+### Jest and node.js ESM vs cjs modules
 
 Something you'll run into when writing unit tests with jest is that jest doesn't support ESM out of the box. ESM means ecma script modules, these are also referred to as ES6 modules. This module pattern is supported in newer versions of node but not out of the box in jest. Jest is built to deal with common javascript modules(cjs). If you want jest to support ESM, you'll have to configure your jest test project to utilize an interpreter with ESM enabled, typically this is babel. 
 
@@ -339,8 +341,9 @@ Read up on the jest's teams current state of supporitng ESM modules [here](https
 
 Read up more on ESM vs cjs modules as well as some other alternative modules paradigms [here](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
 
+__________________________________________________________
 
-### Testing with Mocha and Chai
+# Testing with Mocha and Chai
 
 A walk through for JS unit tests using Mocha as our test runner, Chai as our assertion library & nyc as a coverage reporter
 
