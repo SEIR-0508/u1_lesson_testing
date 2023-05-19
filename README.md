@@ -1,5 +1,7 @@
 ## SEIR 0508
 
+Video Link - https://generalassembly.wistia.com/medias/50k8d00pjm
+
 ### **_If debugging is the process of removing software bugs, then programming must be the process of putting them in._**
 
 _- Edsger Dijkstra_
